@@ -17,7 +17,6 @@ import AuthorPosts from './pages/AuthorPosts'
 import Dashboard from './pages/Dashboard'
 import Logout from './pages/Logout'
 
-
 const router = createBrowserRouter([
   {
     path: "/",

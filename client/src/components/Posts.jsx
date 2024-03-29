@@ -10,8 +10,8 @@ const DUMMY_POSTS = [
       id: '1',
       thumbnail: Thumbnaill,
       category: 'education',
-      title: 'This is the title of the very first post on this blog. ',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio commodi architecto vel natus error adipisci, laboriosam quasi, rerum blanditiis reiciendis ullam soluta itaque repellendus totam corporis consectetur culpa, officia tempora doloribus ipsam eligendi deserunt perferendis. Animi quod, quibusdam modi molestiae perspiciatis placeat, incidunt porro doloremque sint, sequi excepturi enim.',
+      title: 'This is the title blog.',
+      desc: 'Lorem consectetur culpa, officia tempora doloribus ipsam eligendi deserunt perferendis. Animi quod, quibusdam modi molestiae perspiciatis placeat, incidunt porro doloremque sint, sequi excepturi enim.',
       authorID: 3
     },
     {
@@ -26,7 +26,7 @@ const DUMMY_POSTS = [
         id: '3',
         thumbnail: Thumbnail3,
         category: 'weather',
-        title: 'This is the title of the very third post on this blog.',
+        title: 'This is the title blog.',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor dolor',
         authorID: 13 
     },
