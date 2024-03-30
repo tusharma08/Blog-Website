@@ -27,11 +27,12 @@ const Login = () => {
         <form className="form login_form" onSubmit={handleSubmit}>
           <p className="form_error_message">This is an error message</p>
           <input
-            type="text"
+            type="email"
             placeholder="Email"
             name="email"
             value={userData.email}
             onChange={changeInputHandler}
+            autoFocus
           />
           <input
             type="password"

@@ -453,7 +453,7 @@ textarea {
 .profile_avatar_btn {
   background: var(--color-gray-900);
   color: var(--color-white);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   position: absolute;
   right: 2rem;
   bottom: 1.4rem;
@@ -467,6 +467,7 @@ textarea {
 .profile_avatar_btn {
   cursor: pointer;
   padding: 0;
+  font-size: 1.4rem;
   background: var(--color-primary);
 }
 

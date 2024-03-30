@@ -37,7 +37,7 @@ const Register = () => {
             autoFocus
           />
           <input
-            type="text"
+            type="email"
             placeholder="Email"
             name="email"
             value={userData.email}
