@@ -176,6 +176,14 @@ nav {
     gap: 3rem;
 }
 
+.nav_menu li a:hover {
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 30px;
+    background: var(--color-primary);
+    transition: var(--transition);
+}
+
 .nav_toggle-btn {
     display: none;
 }
