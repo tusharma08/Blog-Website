@@ -23,7 +23,7 @@ const Login = () => {
  return (
     <section className="login">
       <div className="container">
-        <h2>Sign IN</h2>
+        <h2>Sign In</h2>
         <form className="form login_form" onSubmit={handleSubmit}>
           <p className="form_error_message">This is an error message</p>
           <input

@@ -25,7 +25,7 @@ const Register = () => {
  return (
     <section className="register">
       <div className="container">
-        <h2>Sign UP</h2>
+        <h2>Sign Up</h2>
         <form className="form register_form" onSubmit={handleSubmit}>
           <p className="form_error_message">This is an error message</p>
           <input
