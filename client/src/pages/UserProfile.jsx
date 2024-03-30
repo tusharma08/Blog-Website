@@ -41,7 +41,8 @@ const UserProfile = () => {
             <button className="profile_avatar_btn"><FaCheck /></button>
           </div>
           <h1>Tushar Sharma</h1>
-          <Link to={`/myposts/sdfsdf`} className="btn">My Posts</Link>
+          <Link to={`/mypost/sdfsdf`} className="btn">My Posts</Link>
+
           <form onSubmit={handleSubmit} className="form profile_form">
             <p className="form_error_message">This is ERROR Message!</p>
             <input type="text" placeholder="Full Name"name="name" value={name} onChange={e => setName(e.target.value)}/>
