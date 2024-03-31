@@ -351,7 +351,7 @@ textarea {
 
 .register,
 .login,
-.creat_post {
+.create_post {
   width: var(--form-width);
   margin-inline: auto;
   height: calc(100vh - 12rem);
@@ -374,6 +374,12 @@ textarea {
 .register small a,
 .login small a {
   color: var(--color-primary);
+}
+
+.ql-editor {
+  overflow: scroll;
+  background: var(--color-white);
+  height: 10rem !important;
 }
 
 /** ===================================== AUTHORS ===========================================**/
